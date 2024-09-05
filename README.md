@@ -1,0 +1,2 @@
+# no_waste_web
+Satisfactory というゲームで無駄なくアイテムを作成するための手助けをするwebアプリ
