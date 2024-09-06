@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "no-waste-web",
   "version": "0.0.0",
   "scripts": {
@@ -11,9 +12,7 @@
     "lint": "ng lint",
     "lint --fix": "ng lint --fix",
     "prettier --fix": "npx prettier -w ./",
-    "tool analysisWiki": "run-s tool_tsc tool_analysisWiki_node",
-    "tool_tsc": "npx tsc -p ./tools/tsconfig.json",
-    "tool_analysisWiki_node": "node ./tools/src/analysisWiki.js"
+    "tool_tsc": "npx tsc -p ./tools/tsconfig.json"
   },
   "private": true,
   "dependencies": {
@@ -54,7 +53,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "node-html-parser": "^6.1.13",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.45",
     "prettier": "^3.3.3",
